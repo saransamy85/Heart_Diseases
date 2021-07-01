@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+<title>Home</title>
+</head>
+<body style="background:linear-gradient(rgb(14, 13, 13,0.3),rgb(14, 13, 13,0.3)),url('static/bg2.jpg');background-size:cover;">
+    <section id="header">
+        <a href="{{url_for('home')}}" class="btn btn-primary">home</a>&nbsp;&nbsp;&nbsp;
+        
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="content">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center" id="myoutputs">
+                <h3>Congratulation</h3>
+                {{acc}}
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </section>
+
+</body>
+</html>
