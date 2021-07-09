@@ -90,12 +90,10 @@ requests-toolbelt==0.9.1
 rope==0.19.0
 rsa==4.6
 scikit-learn==0.22
-scipy==1.5.2
 shiboken2==5.15.2
 six==1.15.0
 snowballstemmer==2.1.0
 soupsieve==2.0.1
-spacy==2.3.2
 SQLAlchemy==1.2.19
 srsly==1.0.2
 stevedore==3.1.0
