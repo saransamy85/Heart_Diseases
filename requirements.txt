@@ -47,7 +47,6 @@ murmurhash==1.0.2
 mysqlclient==2.0.1
 nltk==3.5
 numpy==1.18.5
-opencv-python==4.3.0.36
 packaging==20.4
 pandas==1.2.5
 parso==0.7.1
